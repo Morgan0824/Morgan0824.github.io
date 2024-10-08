@@ -3,98 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>個人簡介</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #77aaff 3px solid;
-        }
-        header a {
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        header ul {
-            padding: 0;
-            list-style: none;
-        }
-        header li {
-            float: left;
-            display: inline;
-            padding: 0 20px 0 20px;
-        }
-        header #branding {
-            float: left;
-        }
-        header #branding h1 {
-            margin: 0;
-        }
-        header nav {
-            float: right;
-            margin-top: 10px;
-        }
-        .bio {
-            padding: 20px;
-            background: #fff;
-            margin-top: 20px;
-        }
-        .bio h2 {
-            color: #333;
-        }
-        .bio p {
-            line-height: 1.6em;
-        }
-    </style>
+    <title>個人介紹網站</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="container">
             <div id="branding">
-                <h1>個人簡介</h1>
+                <h1>個人介紹網站</h1>
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">首頁</a></li>
-                    <li><a href="#">關於我</a></li>
-                    <li><a href="#">聯絡我</a></li>
+                    <li><a href="#home">首頁</a></li>
+                    <li><a href="#about">關於我</a></li>
+                    <li><a href="#skills">技能</a></li>
+                    <li><a href="#projects">項目</a></li>
+                    <li><a href="#contact">聯絡我</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <div class="container">
-        <section class="bio">
-            <h2>關於我</h2>
-            <p>你好，我是[你的名字]。我是一名[你的職業或專業]，擁有[你的經驗年數]年的經驗。我對[你的興趣或專業領域]有著濃厚的興趣，並且在這個領域中不斷學習和成長。</p>
-            <p>在我的職業生涯中，我曾經參與過多個項目，包括[簡要描述一些你參與過的重要項目或成就]。我擁有良好的[技能或特長]，並且熱衷於與他人合作，共同實現目標。</p>
-            <p>在空閒時間，我喜歡[你的愛好或興趣]，這讓我能夠保持創造力和動力。我相信持續學習和自我提升是成功的關鍵，因此我總是尋求新的挑戰和機會。</p>
+        <section id="home" class="section">
+            <h2>歡迎來到我的個人網站</h2>
+            <p>這裡是我的個人介紹網站，您可以了解我的背景、技能、項目和聯絡方式。</p>
         </section>
-    </div>
-    <li><a href="#">聯絡我</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <div class="container">
-        <section class="bio">
+        <section id="about" class="section bio">
             <h2>關於我</h2>
             <p>你好，我是<strong>[你的名字]</strong>。我是一名<strong>[你的職業或專業]</strong>，擁有<strong>[你的經驗年數]</strong>年的經驗。我對<strong>[你的興趣或專業領域]</strong>有著濃厚的興趣，並且在這個領域中不斷學習和成長。</p>
-            <p>在我的職業生涯中，我曾經參與過多個項目，包括<strong>[簡要描述一些你參與過的重要項目或成就]</strong>。我擁有良好的<strong>[技能或特長]</strong>，並且熱衷於與他人合作，共同實現目標。</p>
-            <p>在空閒時間，我喜歡<strong>[你的愛好或興趣]</strong>，這讓我能夠保持創造力和動力。我相信持續學習和自我提升是成功的關鍵，因此我總是尋求新的挑戰和機會。</p>
+        </section>
+        <section id="skills" class="section">
+            <h2>技能</h2>
+            <ul>
+                <li>技能 1</li>
+                <li>技能 2</li>
+                <li>技能 3</li>
+            </ul>
+        </section>
+        <section id="projects" class="section">
+            <h2>項目</h2>
+            <ul>
+                <li>項目 1 - 簡要描述</li>
+                <li>項目 2 - 簡要描述</li>
+                <li>項目 3 - 簡要描述</li>
+            </ul>
+        </section>
+        <section id="contact" class="section">
+            <h2>聯絡我</h2>
+            <p>您可以通過以下方式聯絡我：</p>
+            <ul>
+                <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">你的LinkedIn</a></li>
+                <li>GitHub: <a href="https://github.com/yourprofile">你的GitHub</a></li>
+            </ul>
         </section>
     </div>
 </body>
