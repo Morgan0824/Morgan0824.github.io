@@ -3,6 +3,13 @@ body {
     margin: 20px;
     padding: 20px;
     background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    /* 添加漸變背景 */
+    background: linear-gradient(to bottom, #f0f0f0 0%, #b3b3b3 100%);
+    /* 添加紋理 */
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABHklEQVRYhe2XsU4DQRCGvzNG2hj9AxJ3kQ3iAdx7B24A3oDdSOID3B0cHOBDcAMXwS3iBl5ABb8QJPkHlqZNkiZJYrHb7Xa73QvJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwm0wG/wI8AMkgmEY6a8U8AAAAASUVORK5CYII=');
 }
 
 h1 {
